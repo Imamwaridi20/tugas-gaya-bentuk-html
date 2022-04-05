@@ -1,0 +1,61 @@
+tubuh {
+  font-family :  "Roboto" , sans-serif;
+}
+. animasi-latar belakang {
+  /* warna latar belakang: #2d7dd2; */
+  background :  linear-gradient (ke kanan ,  # 845ee6 ,  # ef96e7 ,  # e9b8e4 );
+  ukuran latar belakang :  400 %  400 % ;
+  animasi : animasi-background 10 s infinite ease-in-out;
+}
+
+@keyframes animasi-background {
+  0 % {
+    posisi latar belakang :  0  50 % ;
+  }
+
+  50 % {
+    posisi latar belakang :  100 %  50 % ;
+  }
+
+  100 % {
+    posisi latar belakang :  0  50 % ;
+  }
+}
+
+tr {
+  warna :  #ff ; _
+}
+
+td . radio {
+  background-color :  # eeb902  !important ;
+}
+
+h2 {
+  perataan teks : tengah;
+  warna :  #ff ; _
+}
+
+ area teks td {
+  mengubah ukuran : tidak ada;
+  batas-radius :  5 px ;
+}
+
+masukan {
+  batas : tidak ada;
+  batas-radius :  5 px ;
+  bantalan :  7 piksel ;
+}
+
+. tombol {
+  warna-latar belakang :  # eeb902 ;
+  warna :  # ff  !penting ;
+}
+
+. tombol : arahkan {
+  warna-latar belakang :  # 8f02ed ;
+  kursor : penunjuk;
+}
+
+td . radio-btn {
+  warna-latar belakang :  # eeb902 ;
+}
