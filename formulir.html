@@ -1,0 +1,152 @@
+@@ -0,0 +1,87 @@
+<!DOCTYPE html >
+< html  lang =" en " >
+  < kepala >
+    < meta  charset =" UTF-8 " />
+    < meta  http-equiv =" X-UA-Compatible " content =" IE=edge " />
+    < meta  name =" viewport " content =" width=device-width, initial-scale=1.0 " />
+    < link  rel =" stylesheet " href =" style.css " />
+  </ kepala >
+
+  < body  class =" animasi-background " >
+    < h2 > Formulir Biodata </ ​​h2 >
+    < bentuk  tindakan ="" metode =" posting " >
+      < tabel >
+        < tr >
+          < td  lebar =" 210 " > NIM : </ td >
+          < td > < jenis input  =" angka " /> </ td >
+        </ tr >
+        < tr >
+          < td > NAMA : </ td >
+          < td > < input  type =" teks " nama ="" id ="" size =" 50 " /> </ td >
+        </ tr >
+        < tr >
+          < td > JENIS KELAMIN : </ td >
+          < td > < input  type =" radio " name =" jenis_kelamin " value =" Pria " />Pria < input  type =" radio " name =" jenis_kelamin " value =" Wanita " />Wanita </ ​​td >
+        </ tr >
+
+        < tr >
+          < td > JURUSAN : </ td >
+          < td >
+            < pilih  nama =" jurusan " id =" daftar " >
+              < option  value =" Pilih " > Pilih...... </ option >
+              < option  value =" Single " > S1 Rekayasa Perangkat Lunak </ option >
+              < option  value =" Menikah " > S1 Ilmu Komputer </ option >
+              < option  value =" Single " > S1 Teknologi Informasi </ option >
+              < option  value =" Single " > S1 Desain Komunikasi Visual </ option >
+              < option  value =" Single " > S1 Akuntansi </ option >
+              < option  value =" Single " > S1 Manajemen </ option >
+              < option  value =" Single " > D3 Rekayasa Perangkat Lunak </ option >
+              < option  value =" Single " > D3 Sistem Informasi </ option >
+            </ pilih >
+          </ td >
+        </ tr >
+
+        < tr >
+          < td > HOBI : </ td >
+          < td >
+            < input  type =" checkbox " name =" Hobby " value =" Komputer " />Komputer < input  type =" checkbox " name =" Hobby " value =" Musik " />Musik < input  type =" checkbox " name =" Hobi " value =" Olahraga " />Olahraga
+            < input  type =" checkbox " name =" Hobi " value =" Bepergian " /> Bepergian
+          </ td >
+        </ tr >
+
+        < tr >
+          < td > Catatan : </ td >
+          < td  class =" catatan " > < textarea  name =" textarea " id ="" cols =" 70 " rows =" 10 " > </ textarea > </ td >
+        </ tr >
+
+        < tr >
+          < td > FOTO : </ td >
+          < td > < input  type =" file " name =" foto " accept =" image/* " /> </ td >
+        </ tr >
+
+        < tr >
+          < td > EMAIL : </ td >
+          < td > < input  type =" email " name =" email " size =" 50 " /> </ td >
+        </ tr >
+
+        < tr >
+          < td > LOGIN SANDI : </ td >
+          < td > < input  type =" password " size =" 50 " /> </ td >
+        </ tr >
+
+        < tr >
+          < td > LOGIN ULANGI SANDI : </ td >
+          < td > < input  type =" password " name ="" id ="" size =" 50 " /> </ td >
+        </ tr >
+        < tr >
+          < td > </ td >
+          < td >
+            < input  type =" submit " value =" Simpan " class =" tombol " />
+            < input  type =" reset " value =" Reset " class =" tombol " />
+            < input  type =" button " value =" peringatan " class =" tombol " />
+          </ td >
+        </ tr >
+      </ tabel >
+    </ bentuk >
+  </ tubuh >
+</ html >
+ 61 
+style.css
+@@ -0,0 +1,61 @@
+tubuh {
+  font-family :  "Roboto" , sans-serif;
+}
+. animasi-latar belakang {
+  /* warna latar belakang: #2d7dd2; */
+  background :  linear-gradient (ke kanan ,  # 845ee6 ,  # ef96e7 ,  # e9b8e4 );
+  ukuran latar belakang :  400 %  400 % ;
+  animasi : animasi-background 10 s infinite ease-in-out;
+}
+
+@keyframes animasi-background {
+  0 % {
+    posisi latar belakang :  0  50 % ;
+  }
+
+  50 % {
+    posisi latar belakang :  100 %  50 % ;
+  }
+
+  100 % {
+    posisi latar belakang :  0  50 % ;
+  }
+}
+
+tr {
+  warna :  #ff ; _
+}
+
+td . radio {
+  background-color :  # eeb902  !important ;
+}
+
+h2 {
+  perataan teks : tengah;
+  warna :  #ff ; _
+}
+
+ area teks td {
+  mengubah ukuran : tidak ada;
+  batas-radius :  5 px ;
+}
+
+masukan {
+  batas : tidak ada;
+  batas-radius :  5 px ;
+  bantalan :  7 piksel ;
+}
+
+. tombol {
+  warna-latar belakang :  # eeb902 ;
+  warna :  # ff  !penting ;
+}
+
+. tombol : arahkan {
+  warna-latar belakang :  # 8f02ed ;
+  kursor : penunjuk;
+}
+
+td . radio-btn {
+  warna-latar belakang :  # eeb902 ;
+}
